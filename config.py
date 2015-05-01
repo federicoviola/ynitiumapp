@@ -11,7 +11,7 @@ class Config:
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     YNITIUM_MAIL_SUBJECT_PREFIX = '[Ynitium]'
-    YNITIUM_MAIL_SENDER = 'Ynitium Admin <ynitium@example.com>'
+    YNITIUM_MAIL_SENDER = 'Ynitium Admin <federicoviola@fastmail.fm>'
     YNITIUM_ADMIN = os.environ.get('YNITIUM_ADMIN')
 
     @staticmethod
