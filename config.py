@@ -15,6 +15,7 @@ class Config:
     YNITIUM_ADMIN = os.environ.get('YNITIUM_ADMIN')
     YNITIUM_POSTS_PER_PAGE = 15
     YNITIUM_FOLLOWERS_PER_PAGE = 50
+    YNITIUM_COMMENTS_PER_PAGE = 30
 
     @staticmethod
     def init_app(app):
