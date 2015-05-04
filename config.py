@@ -14,6 +14,7 @@ class Config:
     YNITIUM_MAIL_SENDER = 'Ynitium Admin <federicoviola@fastmail.fm>'
     YNITIUM_ADMIN = os.environ.get('YNITIUM_ADMIN')
     YNITIUM_POSTS_PER_PAGE = 15
+    YNITIUM_FOLLOWERS_PER_PAGE = 50
 
     @staticmethod
     def init_app(app):
