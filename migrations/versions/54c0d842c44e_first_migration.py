@@ -1,13 +1,13 @@
-"""empty message
+"""first migration
 
-Revision ID: 56e35e4b5c2f
+Revision ID: 54c0d842c44e
 Revises: None
-Create Date: 2015-05-05 23:51:53.369425
+Create Date: 2015-05-06 00:35:39.718705
 
 """
 
 # revision identifiers, used by Alembic.
-revision = '56e35e4b5c2f'
+revision = '54c0d842c44e'
 down_revision = None
 
 from alembic import op
